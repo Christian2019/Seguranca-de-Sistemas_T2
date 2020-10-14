@@ -40,7 +40,7 @@ public class Game {
 			blocks.add(lastBlock);
 		}
 
-		// Calculca o hash do ultimo bloco
+		// Calcula o hash do ultimo bloco
 		byte[] actualHash;
 		actualHash = Hash.calculateHash(blocks.get(blocks.size() - 1), null);
 
